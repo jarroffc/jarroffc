@@ -112,7 +112,7 @@ install_theme() {
       ;;
   esac
 
-  THEME_URL="https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/${THEME_NAME}.zip"
+  THEME_URL="https://github.com/jarroffc/jarroffc/raw/main/${THEME_NAME}.zip"
 
   echo -e "${YELLOW}Mengunduh theme $THEME_NAME...${NC}"
   wget -q -O "/root/${THEME_NAME}.zip" "$THEME_URL"
@@ -188,7 +188,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/stellar.zip https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip
+wget -O /root/stellar.zip https://github.com/jarroffc/jarroffc/raw/main/stellar.zip
 
 
 # Ekstrak file tema
