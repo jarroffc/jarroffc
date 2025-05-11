@@ -68,7 +68,7 @@ check_token() {
     echo -e "${GREEN}Token Salah! Beli Kode Token Di Jarrofficiall${NC}"
     echo -e "${YELLOW}TELEGRAM : @jarroffc${NC}"
     echo -e "${YELLOW}WHATSAPP : +6285641160535${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
+    echo -e "${YELLOW}HARGA TOKEN : 20K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
     echo -e "${YELLOW}© Jarrofficiall${NC}"
     exit 1
   fi
@@ -112,7 +112,7 @@ install_theme() {
       ;;
   esac
 
-  THEME_URL="https://github.com/jarroffc/jarroffc/raw/main/${THEME_NAME}.zip"
+  THEME_URL="https://raw.githubusercontent.com/jarroffc/jarroffc/main/${THEME_NAME}.zip"
 
   echo -e "${YELLOW}Mengunduh theme $THEME_NAME...${NC}"
   wget -q -O "/root/${THEME_NAME}.zip" "$THEME_URL"
